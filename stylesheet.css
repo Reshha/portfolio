@@ -42,8 +42,13 @@ nav > hr {
 
 #links > a {
     color: #26436C;
+    text-decoration: none;
 }
 
+#links > a:hover {
+    color: #b48943;
+    cursor: pointer;
+}
 
 main {
     display: flex;
