@@ -10,22 +10,56 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
     color: #26436C;
 }
-main {
+
+body {
     background-color: #eee6dc;
+}
+
+nav {
+    margin: 2em 10em;
+}
+
+nav > hr {
+    border: none;
+    height: 1px;
+    background-color: #26436C;
+}
+
+#links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+    margin-bottom: 0.5em;
+
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+}
+
+#links > a {
+    color: #26436C;
+}
+
+
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     row-gap: 0;
+
+    padding: 1em;
+    margin-top: -4.5rem;
 }
 
 main > h1 {
     font-family: 'Supremely Luxurious', sans-serif;
-    font-size: 8rem;
-    letter-spacing: 0.01px;
+    font-size: 9rem;
     font-weight: 100;
 }
 
@@ -33,7 +67,7 @@ main > h2 {
     color: #b48943;
     font-family: 'Inter', sans-serif;
     font-size: 2rem;
-    letter-spacing: 0.5em;
+    letter-spacing: 1.25rem;
     font-weight: 200;
     text-transform: uppercase;
 }
